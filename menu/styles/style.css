@@ -1,0 +1,56 @@
+li{
+	border: solid black 1px;
+	display: inline;
+}
+a{
+	text-decoration: none;
+	color:  blue;
+}
+@media screen and (max-width: 1200px) {
+  li.citroen {
+    display: inline;
+  }
+
+@media screen and (max-width: 1200px) {
+  li.seat {
+    display: inline;
+
+  }
+
+@media screen and (max-width: 1200px) {
+  li.maserati {
+    display: inline;
+  }
+ @media screen and (max-width: 1200px) {
+  li.bentley {
+    display: inline;
+  }
+
+@media screen and (max-width: 900px) {
+  li.citroen {
+    display: block;
+    width: 150px;
+  }
+
+@media screen and (max-width: 900px) {
+  li.seat {
+    display: block;
+    width: 100px;
+  }
+
+@media screen and (max-width: 900px) {
+  li.maserati {
+    display: block;
+    width: 170px;
+  }
+ @media screen and (max-width: 900px) {
+  li.bentley {
+    display: block;
+    width: 150px;
+  }
+ @media screen and (max-width: 900px) {
+ p {
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+  }
